@@ -53,8 +53,11 @@ span {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
 }
-img {
-    width: 300px;
+.main img {
+    width: 350px;
+    border: 7px solid #34b0be;
+    height: 480px;
+
 }
 h1 {
     font-size: 3em;
@@ -70,4 +73,32 @@ h1 {
 }
 .download-cv:hover {
     background-color: #d1ceca;
+}
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+.about-info {
+    grid-column: 5/10;
+    padding: 3em;
+}
+.about-info h2 {
+    font-size: 2em;
+    color: #242635;
+}
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: #34b0be;
+    margin-top: 5px;
+    margin-bottom: 2.5em;
+}
+.about p {
+    margin-bottom: 1em;
 }
